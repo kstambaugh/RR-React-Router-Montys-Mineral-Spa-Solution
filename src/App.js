@@ -8,7 +8,7 @@ import Packages from './components/Packages'
 
 
 function App() {
-  
+
   const packages = ['Activate your Crystals', 'Monkey Meditation', 'Soak in the Hotsprings', 'Hypnotherapy', 'Mineral Bath']
 
 
@@ -36,7 +36,7 @@ function App() {
         <div className="display">
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/packages" render={() => <Packages packages={packages}/>}  />
+          <Route path="/packages" render={() => <Packages packages={packages} />} />
         </div>
 
       </Router>
